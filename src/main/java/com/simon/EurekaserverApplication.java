@@ -17,7 +17,7 @@ public class EurekaserverApplication {
 		return new SimpleFilter();
 	}
 	public static void main(String[] args) {
-//		SpringApplication.run(EurekaserverApplication.class, args);
-		new SpringApplicationBuilder(EurekaserverApplication.class).web(true).run(args);
+		SpringApplication.run(EurekaserverApplication.class, args);
+//		new SpringApplicationBuilder(EurekaserverApplication.class).web(true).run(args);
 	}
 }
