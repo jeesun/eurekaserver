@@ -22,7 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<docker.registry>118.178.141.72:5000</docker.registry>
+		<docker.registry>127.0.0.1:5000</docker.registry>
 	</properties>
 
 	<dependencies>
